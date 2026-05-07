@@ -8,7 +8,11 @@ This software is safe, Windows may indicate it as a threat, but check the check 
 - [日本語](#jp)
 - [Español](#esp)
 - [中文(简体)](#ch)
+
+
 ---------------
+
+
 # ENG
 
 # **HxD Text Editor**
@@ -112,13 +116,17 @@ Make good use of this tool and feel free to leave your feedback in the comments,
 
 Thank you in advance :)
 
+
 ------------------------
+
 
 # PT-BR
 
 # **HxD Text Editor**
 
 ***HxD Text Editor*** é um editor de texto open-source desenvolvido para textos copiados do programa ***HxD***. O principal objetivo desta ferramenta é simplificar e acelerar o fluxo de trabalho de tradução/correção de textos em arquivos ".iso" de jogos de PS2, por exemplo.
+
+<img src="images/exemple.gif" alt=" " width="1080px">
 
 # **Principais Recursos**:
 
@@ -219,11 +227,14 @@ Agradeço desde já :)
 
 --------------------------------------
 
+
 # JP
 
 # **HxD Text Editor**
 
 ***HxD Text Editor*** は、***HxD*** プログラムからコピーしたテキスト向けに開発されたオープンソースのテキストエディターです。主な目的は、PS2ゲームの「.iso」ファイル内テキストの翻訳・修正作業をより簡単かつ高速にすることです。
+
+<img src="images/exemple.gif" alt=" " width="1080px">
 
 # **主な機能**:
 
@@ -324,11 +335,14 @@ Agradeço desde já :)
 
 --------------------------------
 
+
 # ESP
 
 # **HxD Text Editor**
 
 ***HxD Text Editor*** es un editor de texto de código abierto diseñado para textos copiados del programa ***HxD***. El objetivo principal de esta herramienta es simplificar y acelerar el flujo de trabajo de traducción/corrección de textos en archivos ".iso" de juegos de PS2, por ejemplo.
+
+<img src="images/exemple.gif" alt=" " width="1080px">
 
 # **Características Principales**:
 
@@ -429,11 +443,14 @@ Gracias de antemano :)
 
 -----------------------------------------
 
+
 # CH
 
 # **HxD Text Editor**
 
 ***HxD Text Editor*** 是一个开源文本编辑器，专门用于处理从 ***HxD*** 程序复制的文本。该工具的主要目的是简化并加快 PS2 游戏 “.iso” 文件中的文本翻译/修正工作流程。
+
+<img src="images/exemple.gif" alt=" " width="1080px">
 
 # **主要功能**：
 
