@@ -3,7 +3,7 @@
 ------------------------
 
 # PT-BR
-Para fazer esse programa eu me inspirei na vontade de querer jogos, mais especificamente o Naruto Ultimate Ninja 4 do PS2, localizados para minha língua (portugues brasileiro).
+Para fazer esse programa eu me inspirei na vontade de querer jogos, mais especificamente o Naruto Shippuden: Ultimate Ninja 4 do PS2, localizados para minha língua (portugues brasileiro).
 
 Pesquisando se tinha esse jogo em PT-BR, percebi que não tinha, apenas o começo, feito pelo @perrxd20 no X, no seguinte  <a href="https://x.com/perrxd20/status/1823032801970499967" target="_blank">post</a>. Como não tinham atualizações recentes dele, eu senti que poderia fazer algo pra isso ser mais fácil e rápido, visto que a principal dificuldade dele era ter que editar no <a href="https://mh-nexus.de/en/hxd/7" target="_blank">HxD</a>, que é bastante demorado e podendo corromper a ISO caso edite errado.
 
@@ -22,7 +22,7 @@ o projeto teve alguns nomes, como:
 
 
 # ENG
-To make this program, I was inspired by the desire to have games — more specifically the PS2 game *Naruto Ultimate Ninja 4* — localized into my language (Brazilian Portuguese).
+To make this program, I was inspired by the desire to have games, more specifically the PS2 game Naruto Shippuden: Ultimate Ninja 4, localized into my language (Brazilian Portuguese).
 
 While searching to see if there was already a PT-BR version of the game, I realized there wasn’t one, except for the beginning of a translation made by @perrxd20 on X, in the following <a href="https://x.com/perrxd20/status/1823032801970499967" target="_blank">post</a>. Since there had been no recent updates from him, I felt I could create something to make the process easier and faster, considering that the main difficulty was having to edit everything directly in <a href="https://mh-nexus.de/en/hxd/7" target="_blank">HxD</a>, which is very time-consuming and can corrupt the ISO if edited incorrectly.
 
