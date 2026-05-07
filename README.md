@@ -112,291 +112,417 @@ Thank you in advance :)
 
 # PT-BR
 
-# HxD Text Editor
+# **HxD Text Editor**
 
-O **_HxD Text Editor_** é um editor de texto de código aberto, voltado para textos copiados do programa **_HxD_**. O principal propósito desta ferramenta é facilitar e acelerar o fluxo de traduções/correções de textos em arquivos ".iso" de jogos de PS2, por exemplo.
+***HxD Text Editor*** é um editor de texto open-source desenvolvido para textos copiados do programa ***HxD***. O principal objetivo desta ferramenta é simplificar e acelerar o fluxo de trabalho de tradução/correção de textos em arquivos ".iso" de jogos de PS2, por exemplo.
 
-# Principais recursos:
+# **Principais Recursos**:
 
-- Separa o texto em blocos de quantidade fixa de caracteres, que são divididos pelo começo de uma LETRA ou NÚMERO do trecho até antes de começar outra que esteja com um caractere vazio antes.'
-- Caracteres deletados são transformados nos espaços vazios, e não apagando o caractere em si. Assim, deixando o trecho do mesmo tamanho do original (ideal para não quebrar a iso).
-- Caracteres que não são úteis e que podem poluir a edição na janela de Blocks e Preview são ocultos, podendo ser adicionados ou removidos na janelinha que tem vários caracteres desse tipo, mas são inclusos no Output.
+* Separa o texto em blocos com uma quantidade fixa de caracteres, divididos desde o início de uma LETRA ou NÚMERO em um segmento até antes de outro começar com um caractere vazio antes dele.
 
-# Características de UI:
+<img src="images/blocks.png" alt=" " width="500px">
 
-Há 4 janelas principais:
-- Input: Para inserir o texto que será editado. Há um pequeno contador dinâmico de caracteres, que pode ajudar, se precisar.
-- Preview: Para visualizar o trecho dividido em blocos sem edição, não sendo possível editar diretamente, apenas se editado no Input, também há contadores dinâmicos, só que em cada bloco.
-- Blocks: Consistindo em uma janela onde contém os blocos de textos divididos, com edição individual e contadores dinâmicos em cada bloco.
-- Output: Nele fica o texto editado, já junto com os caracteres que foram ocultos na edição, entregando a mesma quantidade do Input (pelo menos é pra ser). Há um pequeno botão de copiar todo conteúdo do Output, pra acelerar o fluxo de edição.
+* Caracteres apagados são convertidos em espaços vazios em vez de serem removidos completamente. Isso mantém o segmento com o mesmo tamanho do original (ideal para evitar corrupção da ISO).
+* Caracteres que não são úteis e podem poluir a edição nas janelas de Blocks e Preview ficam ocultos. Eles podem ser adicionados ou removidos na pequena caixa que contém esses caracteres, mas continuam incluídos no Output.
 
-Outros elementos:
+<img src="images/ocultos.png" alt=" " width="500px">
 
-- Reset Layout: Caso você tenha alterado o tamanho e/ou a posição das janelas, use esse botão pra voltar tudo ao padrão.
-- Dark/Light Mode: Troca entre os modos claro e escuro da interface, sendo o Modo Escuro por padrão.
-- Tema Customizável: Se trata de um simples modificação da cor principal da maior parte da interface, permitindo temas únicos.
-- Controle de Transparência: permite alterar a transparência do fundo das janelas, apenas para temas customizáveis.
-- Caracteres Ocultos/Proibidos: Permite alterar que caracteres aparecerão ou não nos Blocks e na Preview, apenas digitando ou copiando e colando.
+# **Recursos da Interface**:
 
-# Recursos técnicos:
+Existem 4 janelas principais:
 
-- Janelas: As janelas são móveis e redimensionáveis, contendo uma borda fina, tendo uma cor característica. Quando transparentes, elas apresentam um aspecto de blur no fundo, estilizando quando sobrepostas.
-- Edição: A edição é feita com base no princípio de substituir o caractere, e não apagá-lo. 
-  -Os botões Backspace e Delete tem a função de transformar o caractere em vazio (que tem esse símbolo no programa, mas no HxD vai estar normal, como se fosse um ponto final), sendo o Backspace pra substituir caracteres anteriores e Delete caracteres posteriores. 
-  - O Enter não altera a quantidade de caracteres dentro do Blocks (visto que depois de tentar substituir um, os enters são removidos e o ponteiro volta para o início do trecho.).
-  - As funções de copiar e colar funcionam, apenas substituindo caracteres na quantidade dos copiados, deixando os outros da mesma forma.
-  - O ctrl+z e o ctrl+y (desfazer e refazer) também funciona, com um limite de até 150 ações de desfazer e refazer.
-  - Os espaços normais são contabilizados como parte de um trecho.
-  - Os trechos tem tamanhos fixos, evitando ultrapassar para outros trechos na qual ele não tem nada haver.
-  - Apenas a visualização do conteúdo das janelas Preview e do Output é possível
-  - Todos os contadores de caracteres são dinâmicos, permitindo saber se houve alteração na quantidade de caracteres originais.
+* **Input**: Usada para inserir o texto que será editado. Inclui um pequeno contador dinâmico de caracteres, caso necessário.
 
-- Estética:
+<img src="images/input.png" alt=" " width="500px">
 
-  - O botão Dark/Light Mode alterna as cores das janelas e do fundo, para cores preta e branca, ajustado para conforto visual e visibilidade.
-  - Cores Personalizáveis: Nesse botão, é possível alterar as cores das janelas e do fundo para qualquer cor em RGB, HLS ou HEX. É possível pegar qualquer cor da tela com o conta-gotas.
-  - Transparência das janelas: Há um controle deslizante que permite ajustar a transparência do fundo das janelas, proporcionando mais customização para o usuário.
-- Caracteres proibidos: Os caracteres que são ocultos na hora da edição nos blocos ficam nesse espaço, onde pode ser digitado (também colável) ou deletado quaisquer caracteres que você queira ocultar na hora de editar os Blocks, deixando uma manipulação mais limpa e sem se preocupar com caracteres importantes que possam ser substituídos sem querer.
-- O botão "Reset layout" move e redimensiona as janelas para a posição e tamanho na qual já estavam por padrão, assim, reiniciando tais modificações feitas pelo usuário.
+* **Preview**: Exibe o segmento dividido em blocos sem edição. Não é possível editar diretamente aqui; ele apenas é atualizado através do Input. Também contém contadores dinâmicos para cada bloco.
 
-Aviso: Não me responsabilizo pelo uso indevido desta ferramenta (se é que pode ter algum uso indevido), sendo sua utilização voltada para a edição de textos copiados do programa "HxD", de forma facilitada para mais pessoas que queriam fazer traduções ou correções de jogos ".iso".
+<img src="images/preview.png" alt=" " width="500px">
 
-Faça bom uso dessa ferramenta e dê seu feedback sobre ele nos comentários, ou de preferência, no meu email para tais fins: bennio23@proton.me. 
+* **Blocks**: Uma janela contendo os blocos de texto divididos, com edição individual e contadores dinâmicos para cada bloco.
 
-Desde já, agradeço :)
+<img src="images/blocks0.png" alt=" " width="600px">
+
+* **Output**: Contém o texto editado, incluindo os caracteres ocultos restaurados durante a edição, entregando a mesma quantidade de caracteres do Input (ou pelo menos é o que deveria acontecer). Também há um pequeno botão para copiar todo o conteúdo do Output, ajudando a acelerar o fluxo de edição.
+
+<img src="images/output.png" alt=" " width="900px">
+
+**Outros Elementos**:
+
+* **Reset Layout**: Caso você altere o tamanho e/ou posição das janelas, use este botão para restaurar tudo ao padrão.
+
+<img src="images/reset.png" alt=" " width="500px">
+
+* **Dark/Light Mode**: Alterna entre os modos claro e escuro da interface, com o Dark Mode ativado por padrão.
+
+<img src="images/darklightmode.png" alt=" " width="500px">
+
+* **Tema Personalizável**: Permite alterar a cor principal usada na maior parte da interface, possibilitando temas únicos.
+
+<img src="images/customcolor.png" alt=" " width="500px">
+
+* **Controle de Transparência**: Permite ajustar a transparência do fundo das janelas, disponível apenas para temas personalizáveis.
+
+<img src="images/transp.png" alt=" " width="500px">
+
+* **Caracteres Ocultos/Proibidos**: Permite alterar quais caracteres irão ou não aparecer nas janelas Blocks e Preview, apenas digitando, copiando ou colando-os.
+
+<img src="images/ocultos.png" alt=" " width="500px">
+
+# Recursos Técnicos:
+
+* **Janelas**: As janelas são móveis e redimensionáveis, com bordas finas e cores características. Quando a transparência está ativada, exibem um efeito de fundo desfocado, criando uma aparência de overlay estilizada.
+
+* **Edição**: A edição é baseada na substituição de caracteres em vez da remoção deles.
+
+  * As teclas Backspace e Delete transformam caracteres em vazios (representados por um símbolo dentro do programa, mas exibidos normalmente no HxD, semelhante a um ponto). O Backspace substitui caracteres anteriores, enquanto o Delete substitui os seguintes.
+  * Pressionar Enter não altera a quantidade de caracteres dentro dos Blocks (já que, após tentar substituir um, as quebras de linha são removidas e o cursor retorna ao início do segmento).
+  * As funções de copiar e colar funcionam normalmente, apenas substituindo caracteres de acordo com a quantidade copiada, enquanto os caracteres restantes permanecem inalterados.
+  * Ctrl+Z e Ctrl+Y (desfazer e refazer) também são suportados, com limite de até 150 ações de desfazer/refazer.
+  * Espaços comuns são contados como parte de um segmento.
+  * Os segmentos possuem tamanhos fixos, impedindo overflow para segmentos não relacionados.
+  * Apenas a visualização do conteúdo das janelas Preview e Output é possível.
+  * Todos os contadores de caracteres são dinâmicos, permitindo verificar se a quantidade original de caracteres foi alterada.
+
+* Estética:
+
+  * O botão **Dark/Light Mode** altera as cores das janelas e do fundo entre preto e branco, otimizado para visibilidade e conforto visual.
+
+<img src="images/darklightmode.gif" alt=" " width="1080px">
+
+* **Cores Personalizáveis**: Este botão permite alterar as cores das janelas e do fundo para qualquer cor RGB, HLS ou HEX. Também é possível selecionar qualquer cor diretamente da tela usando a ferramenta conta-gotas.
+
+<img src="images/customcolor.gif" alt=" " width="1080px">
+
+* **Transparência das Janelas**: Um slider permite ajustar a transparência do fundo das janelas, oferecendo personalização adicional.
+
+<img src="images/transparence.gif" alt=" " width="1080px">
+
+* **Caracteres Proibidos**: Os caracteres ocultados durante a edição dos blocos são gerenciados nesta área, onde os usuários podem digitar (ou colar) e remover quaisquer caracteres que desejarem ocultar durante a edição dos Blocks. Isso mantém a edição mais limpa e evita substituir caracteres importantes acidentalmente.
+
+<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+
+* O botão "**Reset Layout**" restaura todas as janelas para o tamanho e posição padrão, desfazendo quaisquer modificações feitas pelo usuário.
+
+<img src="images/reset.gif" alt=" " width="1080px">
+
+**Aviso**: Não me responsabilizo pelo uso inadequado desta ferramenta (caso isso sequer seja possível). Seu propósito é auxiliar na edição de textos copiados do programa "HxD", tornando mais acessível o fluxo de tradução e correção de jogos ".iso".
+
+Faça bom uso desta ferramenta e fique à vontade para deixar seu feedback nos comentários, ou preferencialmente através do meu email para esse tipo de finalidade: [bennio23@proton.me](mailto:bennio23@proton.me).
+
+Agradeço desde já :)
+
 
 --------------------------------------
 
 # JP
 
-# HxD Text Editor
+# **HxD Text Editor**
 
-***HxD Text Editor*** は、***HxD*** プログラムからコピーしたテキスト向けに作られたオープンソースのテキストエディタです。
-このツールの主な目的は、PS2ゲームの「.iso」ファイル内のテキスト翻訳・修正作業を、より簡単かつ高速にすることです。
+***HxD Text Editor*** は、***HxD*** プログラムからコピーしたテキスト向けに開発されたオープンソースのテキストエディターです。主な目的は、PS2ゲームの「.iso」ファイル内テキストの翻訳・修正作業をより簡単かつ高速にすることです。
 
-# 主な機能:
+# **主な機能**:
 
-* テキストを固定文字数のブロックに分割します。各ブロックは、文字列内の「文字」または「数字」から始まり、その前に空文字を持つ別の文字や数字が始まる直前までを基準に区切られます。
-* 削除された文字は完全に消去されるのではなく、空白文字へ変換されます。これにより、元のテキストと同じサイズを維持できます（ISO破損防止に最適です）。
-* Blocks と Preview ウィンドウで編集を邪魔する不要な文字を非表示にできます。これらの文字は専用の小ウィンドウで追加・削除可能ですが、Output には含まれます。
+* テキストを固定文字数のブロックに分割します。分割は、セグメント内の文字または数字の開始位置から、空白文字を挟んだ次の文字または数字が始まる直前まで行われます。
 
-# UIの特徴:
+<img src="images/blocks.png" alt=" " width="500px">
 
-メインウィンドウは4つあります:
+* 削除された文字は完全に消去されず、空白文字へ変換されます。これにより、元のセグメントと同じサイズを維持できます（ISO破損防止に最適です）。
+* Blocks および Preview ウィンドウで編集の邪魔になる不要な文字は非表示になります。これらの文字は専用の小さなボックスで追加・削除できますが、Output には引き続き含まれます。
 
-* Input: 編集するテキストを入力する場所です。必要に応じて使用できる小さな動的文字数カウンターがあります。
-* Preview: テキストを分割済みブロックとして表示します。ここでは直接編集できず、Input を編集した内容のみが反映されます。各ブロックには動的文字数カウンターがあります。
-* Blocks: 分割されたテキストブロックを表示するウィンドウです。各ブロックを個別編集でき、動的文字数カウンターもあります。
-* Output: 編集後のテキストを表示します。編集時に隠されていた文字も含まれ、Input と同じ文字数を維持します（少なくともその仕様です）。編集作業を高速化するため、Output 全体をコピーする小さなボタンもあります。
+<img src="images/ocultos.png" alt=" " width="500px">
 
-その他の要素:
+# **UI機能**:
 
-* Reset Layout: ウィンドウのサイズや位置を変更した場合、このボタンでデフォルト状態に戻せます。
-* Dark/Light Mode: インターフェースをライトモードとダークモードで切り替えます。デフォルトはダークモードです。
-* Customizable Theme: インターフェースの主要カラーを変更し、独自テーマを作成できます。
-* Transparency Control: カスタムテーマ時に、ウィンドウ背景の透明度を調整できます。
-* Hidden/Forbidden Characters: Blocks と Preview に表示・非表示にする文字を、入力やコピー＆ペーストで設定できます。
+主なウィンドウは4つあります:
 
-# 技術的特徴:
+* **Input**: 編集するテキストを入力するためのウィンドウです。必要に応じて、動的な文字数カウンターが表示されます。
 
-* ウィンドウ:
+<img src="images/input.png" alt=" " width="500px">
 
-  * ウィンドウは移動・リサイズ可能で、細い境界線と特徴的な色を持っています。
-  * 透明化時には背景にぼかし効果が適用され、重なった際にスタイリッシュな見た目になります。
-* 編集:
+* **Preview**: 編集前のセグメントをブロック分割した状態で表示します。ここで直接編集することはできず、Input を通じてのみ更新されます。また、各ブロックごとの動的カウンターも表示されます。
 
-  * 編集は「文字を削除する」のではなく、「置き換える」方式です。
-  * Backspace と Delete キーは、文字を空文字へ変換します（プログラム内では特殊記号で表示されますが、HxD では通常の文字、例えばピリオドのように見えます）。
+<img src="images/preview.png" alt=" " width="500px">
 
-    * Backspace は前の文字を置換します。
-    * Delete は後ろの文字を置換します。
-  * Enter キーを押しても Blocks 内の文字数は変化しません（置換後、改行は削除され、カーソルはセグメント先頭へ戻ります）。
-  * コピー＆ペースト機能も動作し、コピーした文字数分だけ置換され、それ以外は維持されます。
-  * Ctrl+Z と Ctrl+Y（元に戻す / やり直し）にも対応しており、最大150回まで操作可能です。
+* **Blocks**: 分割されたテキストブロックを含むウィンドウで、各ブロックを個別に編集できます。各ブロックには動的カウンターもあります。
+
+<img src="images/blocks0.png" alt=" " width="600px">
+
+* **Output**: 編集後のテキストを表示します。編集中に隠されていた文字も復元され、Input と同じ文字数を維持します（少なくともそのように動作するはずです）。また、Output 全体をコピーするための小さなボタンもあり、編集作業を効率化できます。
+
+<img src="images/output.png" alt=" " width="900px">
+
+**その他の要素**:
+
+* **Reset Layout**: ウィンドウのサイズや位置を変更した場合、このボタンでデフォルト状態に戻せます。
+
+<img src="images/reset.png" alt=" " width="500px">
+
+* **Dark/Light Mode**: ライトモードとダークモードを切り替えます。デフォルトではダークモードが有効です。
+
+<img src="images/darklightmode.png" alt=" " width="500px">
+
+* **Customizable Theme**: インターフェース全体で使用されるメインカラーを変更し、独自テーマを作成できます。
+
+<img src="images/customcolor.png" alt=" " width="500px">
+
+* **Transparency Control**: ウィンドウ背景の透明度を調整できます。カスタムテーマ使用時のみ利用可能です。
+
+<img src="images/transp.png" alt=" " width="500px">
+
+* **Hidden/Forbidden Characters**: Blocks および Preview ウィンドウに表示・非表示にする文字を、入力・コピー・貼り付けによって変更できます。
+
+<img src="images/ocultos.png" alt=" " width="500px">
+
+# 技術的機能:
+
+* **ウィンドウ**: ウィンドウは移動・リサイズ可能で、細い境界線と特徴的な色を備えています。透明度が有効な場合、背景ぼかし効果が適用され、スタイリッシュなオーバーレイ風デザインになります。
+
+* **編集**: 編集は文字削除ではなく、文字置換ベースで行われます。
+
+  * Backspace と Delete キーは文字を空白文字へ変換します（プログラム内では記号として表示されますが、HxD 上では通常表示され、ピリオドに似ています）。Backspace は前の文字を、Delete は後ろの文字を置き換えます。
+  * Enter キーを押しても Blocks 内の文字数は変化しません（改行を試みた後、改行は削除され、カーソルはセグメント先頭へ戻ります）。
+  * コピー＆ペーストは通常通り動作し、貼り付けた文字数分だけ置換が行われ、残りの文字は維持されます。
+  * Ctrl+Z と Ctrl+Y（Undo / Redo）にも対応しており、最大150回までの操作履歴を保持します。
   * 通常のスペースもセグメントの一部としてカウントされます。
-  * 各セグメントは固定サイズで、他の無関係なセグメントへはみ出しません。
+  * セグメントは固定サイズで、他の無関係なセグメントへのオーバーフローを防ぎます。
   * Preview と Output ウィンドウは閲覧専用です。
   * すべての文字数カウンターは動的で、元の文字数が変更されたか確認できます。
+
 * デザイン:
 
-  * Dark/Light Mode ボタンは、背景とウィンドウカラーを黒と白で切り替え、視認性と目の負担軽減を考慮しています。
-  * カスタマイズ可能な色:
+  * **Dark/Light Mode** ボタンは、ウィンドウと背景色を黒・白で切り替え、視認性と快適性を向上させます。
 
-    * RGB、HLS、HEX の任意カラーに変更可能です。
-    * スポイト機能で画面上の任意の色を取得できます。
-  * ウィンドウ透明度:
+<img src="images/darklightmode.gif" alt=" " width="1080px">
 
-    * スライダーで背景透明度を調整でき、より自由なカスタマイズが可能です。
-* 禁止文字:
+* **Customizable Colors**: ウィンドウや背景色を RGB、HLS、HEX の任意カラーへ変更できます。また、スポイトツールを使って画面上の色を直接取得することも可能です。
 
-  * Blocks 編集時に非表示となる文字はこのエリアで管理できます。
-  * 入力・貼り付け・削除によって自由に設定でき、誤って重要な文字を編集してしまうのを防ぎます。
-* 「Reset Layout」ボタン:
+<img src="images/customcolor.gif" alt=" " width="1080px">
 
-  * ウィンドウを初期サイズ・初期位置へ戻し、ユーザーによる変更をリセットします。
+* **Window Transparency**: スライダーによってウィンドウ背景の透明度を調整でき、さらなるカスタマイズが可能です。
 
-注意:
-このツールの不適切な使用について、私は一切責任を負いません（そもそも不適切な使い方が存在するかは分かりませんが）。
-本ツールは、「HxD」プログラムからコピーしたテキスト編集を簡単にし、「.iso」ゲームの翻訳や修正をより多くの人が行いやすくする目的で作られています。
+<img src="images/transparence.gif" alt=" " width="1080px">
 
-このツールをぜひ活用し、感想やフィードバックをコメント、またはできれば以下のメールアドレスまで送ってください:
-[bennio23@proton.me](mailto:bennio23@proton.me).
+* **Forbidden Characters**: ブロック編集時に隠される文字はこのエリアで管理されます。ユーザーは、Blocks 編集中に非表示にしたい文字を入力（または貼り付け）・削除できます。これにより編集画面を整理し、重要な文字を誤って置換するのを防げます。
 
-あらかじめ感謝します :)
+<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+
+* "**Reset Layout**" ボタンは、すべてのウィンドウをデフォルトのサイズと位置に戻し、ユーザーが行った変更をリセットします。
+
+<img src="images/reset.gif" alt=" " width="1080px">
+
+**注意**: 本ツールの不適切な使用について、私は責任を負いません（そもそも不適切な使用が可能かどうかは分かりませんが）。このツールの目的は、「HxD」プログラムからコピーしたテキスト編集を支援し、「.iso」ゲームの翻訳・修正作業をより手軽にすることです。
+
+ぜひご活用ください。フィードバックはコメント欄、または可能であれば以下のメールアドレスまでお願いします: [bennio23@proton.me](mailto:bennio23@proton.me)
+
+よろしくお願いします :)
+
 
 --------------------------------
 
 # ESP
 
-# HxD Text Editor
+# **HxD Text Editor**
 
-***HxD Text Editor*** es un editor de texto de código abierto, diseñado para textos copiados del programa ***HxD***. El principal propósito de esta herramienta es facilitar y acelerar el flujo de traducción/corrección de textos en archivos ".iso" de juegos de PS2, por ejemplo.
+***HxD Text Editor*** es un editor de texto de código abierto diseñado para textos copiados del programa ***HxD***. El objetivo principal de esta herramienta es simplificar y acelerar el flujo de trabajo de traducción/corrección de textos en archivos ".iso" de juegos de PS2, por ejemplo.
 
-# Funciones principales:
+# **Características Principales**:
 
-* Separa el texto en bloques de una cantidad fija de caracteres, divididos desde el comienzo de una LETRA o NÚMERO del fragmento hasta antes de que comience otro que tenga un carácter vacío antes.
-* Los caracteres eliminados se transforman en espacios vacíos en lugar de borrarse completamente. Así, el fragmento mantiene el mismo tamaño que el original (ideal para evitar dañar la ISO).
-* Los caracteres que no son útiles y pueden ensuciar la edición en las ventanas Blocks y Preview se ocultan. Estos pueden añadirse o eliminarse en la pequeña ventana que contiene dichos caracteres, pero siguen incluidos en el Output.
+* Separa el texto en bloques con una cantidad fija de caracteres, divididos desde el inicio de una LETRA o NÚMERO en un segmento hasta antes de que otro comience con un carácter vacío antes de él.
 
-# Características de la UI:
+<img src="images/blocks.png" alt=" " width="500px">
 
-Hay 4 ventanas principales:
+* Los caracteres eliminados se convierten en espacios vacíos en lugar de eliminarse completamente. Esto mantiene el segmento con el mismo tamaño que el original (ideal para evitar corrupción de la ISO).
+* Los caracteres que no son útiles y pueden dificultar la edición en las ventanas Blocks y Preview se ocultan. Estos pueden agregarse o eliminarse en la pequeña caja que contiene dichos caracteres, pero siguen incluidos en el Output.
 
-* Input: Para insertar el texto que será editado. Incluye un pequeño contador dinámico de caracteres, en caso de ser necesario.
-* Preview: Permite visualizar el fragmento dividido en bloques sin edición. No es posible editar directamente aquí; solo se actualiza mediante el Input. También contiene contadores dinámicos en cada bloque.
-* Blocks: Consiste en una ventana que contiene los bloques de texto divididos, con edición individual y contadores dinámicos en cada bloque.
-* Output: Aquí se encuentra el texto editado, junto con los caracteres ocultos restaurados durante la edición, entregando la misma cantidad de caracteres que el Input (o al menos esa es la intención). También hay un pequeño botón para copiar todo el contenido del Output y acelerar el flujo de edición.
+<img src="images/ocultos.png" alt=" " width="500px">
 
-Otros elementos:
+# **Funciones de la Interfaz**:
 
-* Reset Layout: Si cambiaste el tamaño y/o la posición de las ventanas, usa este botón para restaurarlas al estado predeterminado.
-* Dark/Light Mode: Cambia entre los modos claro y oscuro de la interfaz, siendo el modo oscuro el predeterminado.
-* Tema personalizable: Permite modificar el color principal de gran parte de la interfaz, haciendo posibles temas únicos.
-* Control de transparencia: Permite ajustar la transparencia del fondo de las ventanas, disponible únicamente para temas personalizados.
-* Caracteres ocultos/prohibidos: Permite modificar qué caracteres aparecerán o no en las ventanas Blocks y Preview, simplemente escribiéndolos o copiándolos y pegándolos.
+Existen 4 ventanas principales:
 
-# Características técnicas:
+* **Input**: Se utiliza para insertar el texto que será editado. Incluye un pequeño contador dinámico de caracteres si es necesario.
 
-* Ventanas:
+<img src="images/input.png" alt=" " width="500px">
 
-  * Las ventanas son móviles y redimensionables, con bordes finos y colores característicos.
-  * Cuando son transparentes, presentan un efecto de desenfoque en el fondo, estilizando las superposiciones.
-* Edición:
+* **Preview**: Muestra el segmento dividido en bloques sin edición. No es posible editar directamente aquí; solo se actualiza a través del Input. También contiene contadores dinámicos para cada bloque.
 
-  * La edición se basa en reemplazar caracteres en lugar de eliminarlos.
-  * Las teclas Backspace y Delete convierten los caracteres en vacíos (representados por un símbolo dentro del programa, pero que en HxD aparecen normales, como un punto final).
+<img src="images/preview.png" alt=" " width="500px">
 
-    * Backspace reemplaza caracteres anteriores.
-    * Delete reemplaza caracteres posteriores.
-  * La tecla Enter no altera la cantidad de caracteres dentro de Blocks (ya que, después de intentar reemplazar uno, los saltos de línea se eliminan y el cursor vuelve al inicio del fragmento).
-  * Las funciones de copiar y pegar funcionan normalmente, reemplazando únicamente la cantidad de caracteres copiados y manteniendo el resto igual.
-  * Ctrl+Z y Ctrl+Y (deshacer y rehacer) también funcionan, con un límite de hasta 150 acciones.
-  * Los espacios normales cuentan como parte del fragmento.
-  * Los fragmentos tienen tamaños fijos, evitando que el texto invada otros fragmentos no relacionados.
+* **Blocks**: Una ventana que contiene los bloques de texto divididos, con edición individual y contadores dinámicos para cada bloque.
+
+<img src="images/blocks0.png" alt=" " width="600px">
+
+* **Output**: Contiene el texto editado, incluyendo los caracteres ocultos restaurados durante la edición, entregando la misma cantidad de caracteres que el Input (o al menos eso se supone). También hay un pequeño botón para copiar todo el contenido del Output, ayudando a acelerar el flujo de edición.
+
+<img src="images/output.png" alt=" " width="900px">
+
+**Otros Elementos**:
+
+* **Reset Layout**: Si cambias el tamaño y/o posición de las ventanas, utiliza este botón para restaurar todo al estado predeterminado.
+
+<img src="images/reset.png" alt=" " width="500px">
+
+* **Dark/Light Mode**: Cambia entre los modos claro y oscuro de la interfaz, con el modo oscuro activado por defecto.
+
+<img src="images/darklightmode.png" alt=" " width="500px">
+
+* **Tema Personalizable**: Permite cambiar el color principal utilizado en la mayor parte de la interfaz, posibilitando temas únicos.
+
+<img src="images/customcolor.png" alt=" " width="500px">
+
+* **Control de Transparencia**: Permite ajustar la transparencia del fondo de las ventanas, disponible solo para temas personalizables.
+
+<img src="images/transp.png" alt=" " width="500px">
+
+* **Caracteres Ocultos/Prohibidos**: Permite cambiar qué caracteres aparecerán o no en las ventanas Blocks y Preview, simplemente escribiéndolos, copiándolos o pegándolos.
+
+<img src="images/ocultos.png" alt=" " width="500px">
+
+# Características Técnicas:
+
+* **Ventanas**: Las ventanas son movibles y redimensionables, con bordes finos y colores característicos. Cuando la transparencia está habilitada, muestran un efecto de fondo desenfocado, creando una apariencia estilizada tipo overlay.
+
+* **Edición**: La edición se basa en reemplazar caracteres en lugar de eliminarlos.
+
+  * Las teclas Backspace y Delete transforman los caracteres en vacíos (representados por un símbolo dentro del programa, pero mostrados normalmente en HxD, similar a un punto). Backspace reemplaza caracteres anteriores, mientras que Delete reemplaza caracteres posteriores.
+  * Presionar Enter no cambia la cantidad de caracteres dentro de los Blocks (ya que, después de intentar reemplazar uno, los saltos de línea se eliminan y el cursor vuelve al inicio del segmento).
+  * Las funciones de copiar y pegar funcionan normalmente, reemplazando caracteres de acuerdo con la cantidad copiada, mientras que los caracteres restantes permanecen sin cambios.
+  * Ctrl+Z y Ctrl+Y (deshacer y rehacer) también son compatibles, con un límite de hasta 150 acciones.
+  * Los espacios normales se cuentan como parte de un segmento.
+  * Los segmentos tienen tamaños fijos, evitando desbordamientos hacia segmentos no relacionados.
   * Solo es posible visualizar el contenido de las ventanas Preview y Output.
   * Todos los contadores de caracteres son dinámicos, permitiendo verificar si la cantidad original de caracteres fue modificada.
+
 * Estética:
 
-  * El botón Dark/Light Mode cambia los colores de las ventanas y del fondo entre negro y blanco, ajustados para comodidad visual y buena visibilidad.
-  * Colores personalizables:
+  * El botón **Dark/Light Mode** cambia los colores de las ventanas y el fondo entre negro y blanco, optimizado para visibilidad y comodidad visual.
 
-    * Permite cambiar los colores de las ventanas y del fondo a cualquier color RGB, HLS o HEX.
-    * También es posible capturar cualquier color de la pantalla con la herramienta cuentagotas.
-  * Transparencia de las ventanas:
+<img src="images/darklightmode.gif" alt=" " width="1080px">
 
-    * Hay un control deslizante para ajustar la transparencia del fondo de las ventanas, ofreciendo mayor personalización.
-* Caracteres prohibidos:
+* **Colores Personalizables**: Este botón permite cambiar los colores de las ventanas y del fondo a cualquier color RGB, HLS o HEX. También es posible seleccionar cualquier color directamente desde la pantalla utilizando la herramienta cuentagotas.
 
-  * Los caracteres ocultos durante la edición de bloques se administran en esta área.
-  * Allí se pueden escribir, pegar o eliminar caracteres que quieras ocultar al editar los Blocks, haciendo la manipulación más limpia y evitando reemplazar accidentalmente caracteres importantes.
-* El botón "Reset Layout":
+<img src="images/customcolor.gif" alt=" " width="1080px">
 
-  * Restaura el tamaño y la posición predeterminados de las ventanas, reiniciando las modificaciones realizadas por el usuario.
+* **Transparencia de las Ventanas**: Un control deslizante permite ajustar la transparencia del fondo de las ventanas, proporcionando personalización adicional.
 
-Aviso:
-No me responsabilizo por el uso indebido de esta herramienta (si es que realmente puede tener alguno). Su finalidad está orientada a facilitar la edición de textos copiados del programa "HxD", haciendo más accesible la traducción o corrección de juegos ".iso".
+<img src="images/transparence.gif" alt=" " width="1080px">
 
-Haz buen uso de esta herramienta y deja tu feedback en los comentarios, o preferiblemente en mi correo electrónico para estos fines:
-[bennio23@proton.me](mailto:bennio23@proton.me). 
+* **Caracteres Prohibidos**: Los caracteres ocultos durante la edición de bloques se administran en esta área, donde los usuarios pueden escribir (o pegar) y eliminar cualquier carácter que deseen ocultar mientras editan los Blocks. Esto mantiene la edición más limpia y evita reemplazar accidentalmente caracteres importantes.
 
-Desde ya, gracias :)
+<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+
+* El botón "**Reset Layout**" restaura todas las ventanas a su tamaño y posición predeterminados, deshaciendo cualquier modificación realizada por el usuario.
+
+<img src="images/reset.gif" alt=" " width="1080px">
+
+**Aviso**: No me responsabilizo por el uso indebido de esta herramienta (si es que tal uso indebido es posible). Su propósito es ayudar con la edición de textos copiados del programa "HxD", haciendo más accesible el flujo de traducción y corrección de juegos ".iso".
+
+Haz buen uso de esta herramienta y siéntete libre de dejar tus comentarios, o preferiblemente enviarlos a mi correo electrónico para este tipo de asuntos: [bennio23@proton.me](mailto:bennio23@proton.me).
+
+Gracias de antemano :)
+
 
 -----------------------------------------
 
 # CH
 
-# HxD Text Editor
+# **HxD Text Editor**
 
-***HxD Text Editor*** 是一个开源文本编辑器，专为从 ***HxD*** 程序复制的文本而设计。
-该工具的主要目的是让 PS2 游戏 “.iso” 文件中的文本翻译与修正工作更加简单、高效。
+***HxD Text Editor*** 是一个开源文本编辑器，专门用于处理从 ***HxD*** 程序复制的文本。该工具的主要目的是简化并加快 PS2 游戏 “.iso” 文件中的文本翻译/修正工作流程。
 
-# 主要功能：
+# **主要功能**：
 
-* 将文本分割为固定字符数量的块，从一段文本中的“字母”或“数字”开始，到下一个前方带有空字符的字母或数字开始之前结束。
-* 被删除的字符不会被真正移除，而是会转换为空字符。这样可以保持文本与原始大小一致（非常适合避免破坏 ISO 文件）。
-* 在 Blocks 与 Preview 窗口中，不重要且会影响编辑的字符会被隐藏。这些字符可以在专用的小窗口中添加或删除，但仍会保留在 Output 中。
+* 将文本分割为固定字符数量的区块，从一个段落中字母或数字的开头开始，直到下一个在空字符前开始的字母或数字之前结束。
 
-# UI 特性：
+<img src="images/blocks.png" alt=" " width="500px">
+
+* 被删除的字符不会被彻底移除，而是会转换为空字符。这样可以保持段落与原始大小一致（非常适合避免 ISO 损坏）。
+* 在 Blocks 和 Preview 窗口中，对编辑没有帮助且可能造成干扰的字符会被隐藏。用户可以在包含这些字符的小框中添加或移除它们，但它们仍然会保留在 Output 中。
+
+<img src="images/ocultos.png" alt=" " width="500px">
+
+# **界面功能**：
 
 共有 4 个主要窗口：
 
-* Input：用于输入需要编辑的文本。包含一个小型动态字符计数器，方便查看字符数量。
-* Preview：用于查看分割后的文本块，不可直接编辑，只会根据 Input 的内容更新。每个块也带有动态字符计数器。
-* Blocks：包含已分割文本块的窗口，可单独编辑每个块，并带有动态字符计数器。
-* Output：显示最终编辑后的文本，并恢复编辑过程中隐藏的字符，从而保持与 Input 相同的字符数量（至少理论上如此）。还包含一个复制全部 Output 内容的小按钮，用于加快编辑流程。
+* **Input**：用于输入需要编辑的文本。如果需要，还会显示一个动态字符计数器。
 
-其他元素：
+<img src="images/input.png" alt=" " width="500px">
 
-* Reset Layout：如果你修改了窗口大小或位置，可使用此按钮恢复默认布局。
-* Dark/Light Mode：切换深色与浅色界面模式，默认使用深色模式。
-* 可自定义主题：允许修改界面主要颜色，从而创建独特主题。
-* 透明度控制：允许调整窗口背景透明度，仅适用于自定义主题。
-* 隐藏/禁止字符：允许通过输入、复制或粘贴字符来决定哪些字符会在 Blocks 与 Preview 中显示或隐藏。
+* **Preview**：显示已分割为区块但尚未编辑的段落。无法直接在这里编辑；它只会通过 Input 更新。同时还包含每个区块的动态计数器。
 
-# 技术特性：
+<img src="images/preview.png" alt=" " width="500px">
 
-* 窗口：
+* **Blocks**：包含已分割文本区块的窗口，支持单独编辑，并为每个区块提供动态计数器。
 
-  * 窗口可移动、可调整大小，并带有细边框和特色颜色。
-  * 开启透明效果后，背景会出现模糊效果，在窗口重叠时更具美观性。
-* 编辑：
+<img src="images/blocks0.png" alt=" " width="600px">
 
-  * 编辑基于“替换字符”而不是“删除字符”。
-  * Backspace 与 Delete 键会将字符替换为空字符（程序中会显示特殊符号，但在 HxD 中会正常显示，例如像句号一样）。
+* **Output**：包含编辑后的文本，并恢复编辑过程中隐藏的字符，最终输出与 Input 相同的字符数量（至少理论上如此）。此外，还有一个小按钮可复制整个 Output 内容，以加快编辑流程。
 
-    * Backspace 替换前方字符。
-    * Delete 替换后方字符。
-  * Enter 键不会改变 Blocks 内的字符数量（尝试替换后，换行会被移除，光标会返回片段开头）。
-  * 复制与粘贴功能正常工作，仅替换被复制字符数量对应的位置，其余字符保持不变。
-  * 支持 Ctrl+Z 与 Ctrl+Y（撤销/重做），最多支持 150 次操作。
-  * 普通空格也会被计入文本片段。
-  * 文本片段具有固定大小，避免文本溢出到无关片段中。
-  * Preview 与 Output 窗口仅支持查看内容。
-  * 所有字符计数器均为动态更新，可用于检查原始字符数量是否发生变化。
-* 外观：
+<img src="images/output.png" alt=" " width="900px">
 
-  * Dark/Light Mode 按钮会将窗口与背景颜色切换为黑白两种方案，以提高视觉舒适度与可读性。
-  * 可自定义颜色：
+**其他元素**：
 
-    * 可将窗口与背景颜色修改为任意 RGB、HLS 或 HEX 颜色。
-    * 支持使用吸管工具从屏幕获取任意颜色。
-  * 窗口透明度：
+* **Reset Layout**：如果更改了窗口大小和/或位置，可使用此按钮恢复默认布局。
 
-    * 提供滑块调节窗口背景透明度，为用户带来更多自定义空间。
-* 禁止字符：
+<img src="images/reset.png" alt=" " width="500px">
 
-  * 编辑 Blocks 时被隐藏的字符会显示在该区域中。
-  * 用户可以输入、粘贴或删除希望隐藏的字符，使编辑更加整洁，并避免误替换重要字符。
-* “Reset Layout” 按钮：
+* **Dark/Light Mode**：切换界面的深色/浅色模式，默认启用深色模式。
 
-  * 将窗口恢复到默认大小与位置，重置用户所做的修改。
+<img src="images/darklightmode.png" alt=" " width="500px">
 
-注意：
-本人不对该工具的任何不当使用负责（如果真的存在不当用途的话）。
-该工具旨在简化从 “HxD” 程序复制文本后的编辑流程，使更多人能够更方便地进行 “.iso” 游戏的翻译与修正。
+* **Customizable Theme**：允许更改界面大部分区域使用的主颜色，从而创建独特主题。
 
-欢迎合理使用本工具，并在评论区留下反馈，或者更推荐通过以下邮箱联系我：
-[bennio23@proton.me](mailto:bennio23@proton.me).
+<img src="images/customcolor.png" alt=" " width="500px">
+
+* **Transparency Control**：允许调整窗口背景透明度，仅适用于自定义主题。
+
+<img src="images/transp.png" alt=" " width="500px">
+
+* **Hidden/Forbidden Characters**：允许通过输入、复制或粘贴字符，自定义哪些字符会或不会显示在 Blocks 和 Preview 窗口中。
+
+<img src="images/ocultos.png" alt=" " width="500px">
+
+# 技术功能：
+
+* **窗口**：窗口支持移动与调整大小，具有细边框和特色颜色。启用透明效果时，会显示模糊背景效果，形成具有风格化的覆盖层外观。
+
+* **编辑**：编辑基于字符替换，而不是字符删除。
+
+  * Backspace 和 Delete 键会将字符转换为空字符（在程序中以符号表示，但在 HxD 中会正常显示，类似于句点）。Backspace 替换前一个字符，而 Delete 替换后一个字符。
+  * 按下 Enter 不会改变 Blocks 内的字符数量（因为尝试替换后，换行会被移除，光标会返回段落开头）。
+  * 复制与粘贴功能正常工作，只会根据复制的字符数量进行替换，其余字符保持不变。
+  * 支持 Ctrl+Z 和 Ctrl+Y（撤销/重做），最多支持 150 次撤销/重做操作。
+  * 普通空格也会被计入段落的一部分。
+  * 段落大小固定，防止溢出到无关段落。
+  * Preview 和 Output 窗口仅支持查看内容。
+  * 所有字符计数器都是动态的，可用于检查原始字符数量是否发生变化。
+
+* 美观设计：
+
+  * **Dark/Light Mode** 按钮可在黑白主题之间切换窗口和背景颜色，以优化可见性和视觉舒适度。
+
+<img src="images/darklightmode.gif" alt=" " width="1080px">
+
+* **Customizable Colors**：此按钮允许将窗口和背景颜色更改为任意 RGB、HLS 或 HEX 颜色。同时还可以使用吸管工具直接从屏幕中选取颜色。
+
+<img src="images/customcolor.gif" alt=" " width="1080px">
+
+* **Window Transparency**：可通过滑块调整窗口背景透明度，提供额外的个性化设置。
+
+<img src="images/transparence.gif" alt=" " width="1080px">
+
+* **Forbidden Characters**：在区块编辑期间被隐藏的字符会在此区域中管理，用户可以输入（或粘贴）并移除任何希望在编辑 Blocks 时隐藏的字符。这可以让编辑界面更加整洁，并避免误替换重要字符。
+
+<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+
+* “**Reset Layout**” 按钮会将所有窗口恢复到默认大小和位置，并撤销用户所做的修改。
+
+<img src="images/reset.gif" alt=" " width="1080px">
+
+**警告**：对于此工具的不当使用（如果真的存在这种可能），本人概不负责。该工具的目的是帮助编辑从 “HxD” 程序复制的文本，使 “.iso” 游戏的翻译与修正流程更加方便。
+
+请合理使用此工具，并欢迎在评论区留下反馈，或者更推荐通过以下邮箱联系我： [bennio23@proton.me](mailto:bennio23@proton.me)
 
 提前感谢 :)
-
