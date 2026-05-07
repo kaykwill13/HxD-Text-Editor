@@ -1,3 +1,5 @@
+<img src="images/icon full 1080p.png" alt="Descrição" width="500px">
+
 # Select your language:
 - [English](#eng)
 - [Português](#pt-br)
