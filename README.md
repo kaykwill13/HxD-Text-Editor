@@ -9,11 +9,11 @@
 ---------------
 # ENG
 
-# HxD Text Editor
+# **HxD Text Editor**
 
 ***HxD Text Editor*** is an open-source text editor designed for texts copied from the ***HxD*** program. The main purpose of this tool is to simplify and speed up the workflow of translating/correcting text in PS2 game ".iso" files, for example.
 
-# Main Features:
+# **Main Features**:
 
 * Separates text into blocks with a fixed character count, divided from the beginning of a LETTER or NUMBER in a segment until before another one begins with an empty character before it.
 
@@ -24,53 +24,53 @@
 
 <img src="images/ocultos.png" alt=" " width="500px">
 
-# UI Features:
+# **UI Features**:
 
 There are 4 main windows:
 
-* Input: Used to insert the text that will be edited. It includes a small dynamic character counter if needed.
+* **Input**: Used to insert the text that will be edited. It includes a small dynamic character counter if needed.
 
 <img src="images/input.png" alt=" " width="500px">
 
-* Preview: Displays the segment divided into blocks without editing. Direct editing is not possible here; it only updates through the Input. It also contains dynamic counters for each block.
+* **Preview**: Displays the segment divided into blocks without editing. Direct editing is not possible here; it only updates through the Input. It also contains dynamic counters for each block.
 
 <img src="images/preview.png" alt=" " width="500px">
 
-* Blocks: A window containing the divided text blocks, with individual editing and dynamic counters for each block.
+* **Blocks**: A window containing the divided text blocks, with individual editing and dynamic counters for each block.
 
 <img src="images/blocks0.png" alt=" " width="600px">
 
-* Output: Contains the edited text, including the hidden characters restored during editing, delivering the same character count as the Input (or at least it is supposed to). There is also a small button to copy the entire Output content, helping speed up the editing workflow.
+* **Output**: Contains the edited text, including the hidden characters restored during editing, delivering the same character count as the Input (or at least it is supposed to). There is also a small button to copy the entire Output content, helping speed up the editing workflow.
 
 <img src="images/output.png" alt=" " width="900px">
 
-Other Elements:
+**Other Elements**:
 
-* Reset Layout: If you change the size and/or position of the windows, use this button to restore everything to default.
+* **Reset Layout**: If you change the size and/or position of the windows, use this button to restore everything to default.
 
 <img src="images/reset.png" alt=" " width="500px">
  
-* Dark/Light Mode: Switches between light and dark interface modes, with Dark Mode enabled by default.
+* **Dark/Light Mode**: Switches between light and dark interface modes, with Dark Mode enabled by default.
 
 <img src="images/darklightmode.png" alt=" " width="500px">
 
-* Customizable Theme: Allows changing the main color used across most of the interface, enabling unique themes.
+* **Customizable Theme**: Allows changing the main color used across most of the interface, enabling unique themes.
 
 <img src="images/customcolor.png" alt=" " width="500px">
 
-* Transparency Control: Lets you adjust the transparency of window backgrounds, available only for customizable themes.
+* **Transparency Control**: Lets you adjust the transparency of window backgrounds, available only for customizable themes.
 
 <img src="images/transp.png" alt=" " width="500px">
 
-* Hidden/Forbidden Characters: Allows changing which characters will or will not appear in the Blocks and Preview windows, simply by typing, copying, or pasting them.
+* **Hidden/Forbidden Characters**: Allows changing which characters will or will not appear in the Blocks and Preview windows, simply by typing, copying, or pasting them.
 
 <img src="images/ocultos.png" alt=" " width="500px">
 
 
 # Technical Features:
 
-* Windows: The windows are movable and resizable, with thin borders and characteristic colors. When transparency is enabled, they display a blurred background effect, creating a styled overlay appearance.
-* Editing: Editing is based on replacing characters rather than deleting them.
+* **Windows**: The windows are movable and resizable, with thin borders and characteristic colors. When transparency is enabled, they display a blurred background effect, creating a styled overlay appearance.
+* **Editing**: Editing is based on replacing characters rather than deleting them.
   * The Backspace and Delete keys transform characters into empty ones (represented by a symbol inside the program, but displayed normally in HxD, similar to a period). Backspace replaces previous characters, while Delete replaces following characters.
   * Pressing Enter does not change the number of characters inside the Blocks (since after attempting to replace one, line breaks are removed and the cursor returns to the beginning of the segment).
   * Copy and paste functions work normally, only replacing characters according to the amount copied, while leaving the remaining characters unchanged.
@@ -82,27 +82,27 @@ Other Elements:
 
 * Aesthetics:
 
-  * The Dark/Light Mode button changes the colors of the windows and background between black and white, optimized for visibility and visual comfort.
+  * The **Dark/Light Mode** button changes the colors of the windows and background between black and white, optimized for visibility and visual comfort.
  
-<img src="images/ocultos.png" alt=" " width="500px">
+<img src="images/darklightmode.gif" alt=" " width="1080px">
 
-  * Customizable Colors: This button allows changing window and background colors to any RGB, HLS, or HEX color. It is also possible to pick any color directly from the screen using the eyedropper tool.
+  * **Customizable Colors**: This button allows changing window and background colors to any RGB, HLS, or HEX color. It is also possible to pick any color directly from the screen using the eyedropper tool.
 
-<img src="images/ocultos.png" alt=" " width="500px">
+<img src="images/customcolor.gif" alt=" " width="1080px">
 
-  * Window Transparency: A slider allows adjusting the transparency of window backgrounds, providing additional customization.
+  * **Window Transparency**: A slider allows adjusting the transparency of window backgrounds, providing additional customization.
 
-<img src="images/ocultos.png" alt=" " width="500px">
+<img src="images/transparence.gif" alt=" " width="1080px">
 
-* Forbidden Characters: Characters hidden during block editing are managed in this area, where users can type (or paste) and remove any characters they want hidden while editing the Blocks. This keeps editing cleaner and avoids accidentally replacing important characters.
+* **Forbidden Characters**: Characters hidden during block editing are managed in this area, where users can type (or paste) and remove any characters they want hidden while editing the Blocks. This keeps editing cleaner and avoids accidentally replacing important characters.
 
-<img src="images/ocultos.png" alt=" " width="500px">
+<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
 
-* The "Reset Layout" button restores all windows to their default size and position, undoing any modifications made by the user.
+* The "**Reset Layout**" button restores all windows to their default size and position, undoing any modifications made by the user.
 
-<img src="images/ocultos.png" alt=" " width="500px">
+<img src="images/reset.gif" alt=" " width="1080px">
 
-Warning: I am not responsible for improper use of this tool (if such misuse is even possible). Its intended purpose is to assist with editing text copied from the "HxD" program, making translation and correction workflows for ".iso" games more accessible.
+**Warning**: I am not responsible for improper use of this tool (if such misuse is even possible). Its intended purpose is to assist with editing text copied from the "HxD" program, making translation and correction workflows for ".iso" games more accessible.
 
 Make good use of this tool and feel free to leave your feedback in the comments, or preferably through my email for such purposes: [bennio23@proton.me](mailto:bennio23@proton.me).
 
