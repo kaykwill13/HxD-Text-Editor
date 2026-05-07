@@ -1,4 +1,4 @@
-<img src="images/icon full 1080p.png" alt="Descrição" width="500px">
+<img src="images/icon full 16_9.png" alt="Ícone em 16:9 e 1080p" width="1080px">
 
 # Select your language:
 - [English](#eng)
