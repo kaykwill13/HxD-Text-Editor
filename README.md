@@ -16,8 +16,13 @@
 # Main Features:
 
 * Separates text into blocks with a fixed character count, divided from the beginning of a LETTER or NUMBER in a segment until before another one begins with an empty character before it.
+
+<img src="images/blocks.png" alt=" " width="500px">
+
 * Deleted characters are converted into empty spaces instead of being removed entirely. This keeps the segment the same size as the original (ideal for avoiding ISO corruption).
 * Characters that are not useful and may clutter editing in the Blocks and Preview windows are hidden. They can be added or removed in the small box containing those characters, but they are still included in the Output.
+
+<img src="images/ocultos.png" alt=" " width="500px">
 
 # UI Features:
 
