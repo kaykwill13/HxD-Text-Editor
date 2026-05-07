@@ -15,6 +15,8 @@ This software is safe, Windows may indicate it as a threat, but check the check 
 
 ***HxD Text Editor*** is an open-source text editor designed for texts copied from the ***HxD*** program. The main purpose of this tool is to simplify and speed up the workflow of translating/correcting text in PS2 game ".iso" files, for example.
 
+<img src="images/exemple.gif" alt=" " width="1080px">
+
 # **Main Features**:
 
 * Separates text into blocks with a fixed character count, divided from the beginning of a LETTER or NUMBER in a segment until before another one begins with an empty character before it.
