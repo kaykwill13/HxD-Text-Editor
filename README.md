@@ -112,7 +112,7 @@ There are 4 main windows:
 
 **Warning**: I am not responsible for improper use of this tool (if such misuse is even possible). Its intended purpose is to assist with editing text copied from the "HxD" program, making translation and correction workflows for ".iso" games more accessible.
 
-Make good use of this tool and feel free to leave your feedback in the comments, or preferably through my email for such purposes: [bennio23@proton.me](mailto:bennio23@proton.me).
+Make good use of this tool and feel free to leave your feedback in the comments, or preferably through my email for such purposes: [bennio23@proton.me](mailto:bennio23@proton.me), or in the discussion tab.
 
 Thank you in advance :)
 
@@ -220,7 +220,7 @@ Existem 4 janelas principais:
 
 **Aviso**: Não me responsabilizo pelo uso inadequado desta ferramenta (caso isso sequer seja possível). Seu propósito é auxiliar na edição de textos copiados do programa "HxD", tornando mais acessível o fluxo de tradução e correção de jogos ".iso".
 
-Faça bom uso desta ferramenta e fique à vontade para deixar seu feedback nos comentários, ou preferencialmente através do meu email para esse tipo de finalidade: [bennio23@proton.me](mailto:bennio23@proton.me).
+Faça bom uso desta ferramenta e sinta-se à vontade para deixar seu feedback nos comentários, ou preferencialmente através do meu e-mail para esse tipo de finalidade: [bennio23@proton.me](mailto:bennio23@proton.me), ou na aba de discussões.
 
 Agradeço desde já :)
 
@@ -328,7 +328,7 @@ Agradeço desde já :)
 
 **注意**: 本ツールの不適切な使用について、私は責任を負いません（そもそも不適切な使用が可能かどうかは分かりませんが）。このツールの目的は、「HxD」プログラムからコピーしたテキスト編集を支援し、「.iso」ゲームの翻訳・修正作業をより手軽にすることです。
 
-ぜひご活用ください。フィードバックはコメント欄、または可能であれば以下のメールアドレスまでお願いします: [bennio23@proton.me](mailto:bennio23@proton.me)
+このツールをぜひ活用し、コメント欄、またはこのような目的のために用意している私のメールアドレス [bennio23@proton.me](mailto:bennio23@proton.me)、もしくはディスカッションタブからお気軽にフィードバックをお寄せください。
 
 よろしくお願いします :)
 
@@ -436,7 +436,7 @@ Existen 4 ventanas principales:
 
 **Aviso**: No me responsabilizo por el uso indebido de esta herramienta (si es que tal uso indebido es posible). Su propósito es ayudar con la edición de textos copiados del programa "HxD", haciendo más accesible el flujo de traducción y corrección de juegos ".iso".
 
-Haz buen uso de esta herramienta y siéntete libre de dejar tus comentarios, o preferiblemente enviarlos a mi correo electrónico para este tipo de asuntos: [bennio23@proton.me](mailto:bennio23@proton.me).
+Haz buen uso de esta herramienta y no dudes en dejar tus comentarios, o preferiblemente enviarlos a través de mi correo electrónico para este tipo de asuntos: [bennio23@proton.me](mailto:bennio23@proton.me), o en la pestaña de discusiones.
 
 Gracias de antemano :)
 
@@ -544,6 +544,6 @@ Gracias de antemano :)
 
 **警告**：对于此工具的不当使用（如果真的存在这种可能），本人概不负责。该工具的目的是帮助编辑从 “HxD” 程序复制的文本，使 “.iso” 游戏的翻译与修正流程更加方便。
 
-请合理使用此工具，并欢迎在评论区留下反馈，或者更推荐通过以下邮箱联系我： [bennio23@proton.me](mailto:bennio23@proton.me)
+请充分利用这个工具，并随时在评论区留下您的反馈，或者更推荐通过我的电子邮箱 [bennio23@proton.me](mailto:bennio23@proton.me)（用于此类用途），也可以在讨论区中提出您的意见。
 
 提前感谢 :)
