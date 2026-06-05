@@ -1,4 +1,4 @@
-<img src="temp_img.png" alt="Ícone em 16:9 e 1080p" width="1080px">
+<img src="logo 16x9.png" alt="Ícone em 16:9 e 1080p" width="1080px">
 
 This software is safe, Windows may indicate it as a threat, but check the check carried out on <a href="https://www.virustotal.com/gui/file/b1bc34e1c13034b8d51121d0a6f8fcb5ede2ef8379edb4aae0c5ef521a59fc44?nocache=1" target="_blank">VirusTotal</a>.
 
