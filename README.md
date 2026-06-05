@@ -19,7 +19,8 @@ This software is safe, Windows may indicate it as a threat, but check the check 
 
 ***Boxes Text Editor*** is an open-source text editor designed for text copied from any hexadecimal editor. The main goal of this tool is to simplify and speed up the workflow of translating/correcting game text.
 
-<img src="images/logo HD.png" alt=" " width="1080px">
+<img src="images/logo HD.png" alt=" " width="400px">
+<img src="images/intro.png" alt=" " width="1080px">
 
 # **Main Features**:
 
