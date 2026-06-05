@@ -129,7 +129,8 @@ Thank you in advance :)
 
 ***Boxes Text Editor*** é um editor de texto de código aberto projetado para textos copiados  de algum editor hexadecimal. O principal objetivo desta ferramenta é simplificar e agilizar o fluxo de trabalho de tradução/correção de texto de jogos.
 
-<img src="temp_img.png" alt=" " width="1080px">
+<img src="images/logo HD.png" alt=" " width="400px">
+<img src="images/intro.png" alt=" " width="1080px">
 
 # **Principais Recursos**:
 
@@ -237,7 +238,8 @@ Agradeço desde já :)
 
 ***Boxes Text Editor***は、あらゆる16進数エディタからコピーしたテキストに対応するように設計されたオープンソースのテキストエディタです。このツールの主な目的は、ゲームテキストの翻訳／修正作業を簡素化し、高速化することです。
 
-<img src="temp_img.png" alt=" " width="1080px">
+<img src="images/logo HD.png" alt=" " width="400px">
+<img src="images/intro.png" alt=" " width="1080px">
 
 # **主な機能**:
 
@@ -345,7 +347,8 @@ Agradeço desde já :)
 
 ***Boxes Text Editor*** es un editor de texto de código abierto diseñado para texto copiado desde cualquier editor hexadecimal. El objetivo principal de esta herramienta es simplificar y agilizar el proceso de traducción y corrección de textos de videojuegos.
 
-<img src="temp_img.png" alt=" " width="1080px">
+<img src="images/logo HD.png" alt=" " width="400px">
+<img src="images/intro.png" alt=" " width="1080px">
 
 # **Características Principales**:
 
@@ -453,7 +456,8 @@ Gracias de antemano :)
 
 ***Boxes Text Editor*** 是一款开源文本编辑器，专为从任何十六进制编辑器复制的文本而设计。该工具的主要目标是简化和加快游戏文本的翻译/校对工作流程。
 
-<img src="temp_img.png" alt=" " width="1080px">
+<img src="images/logo HD.png" alt=" " width="400px">
+<img src="images/intro.png" alt=" " width="1080px">
 
 # **主要功能**：
 
