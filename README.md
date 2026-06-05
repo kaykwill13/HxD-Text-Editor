@@ -1,4 +1,4 @@
-<img src="logo 16x9.png" alt="Ícone em 16:9 e 1080p" width="1080px">
+<img src="images/logo 16x9.png" alt="Ícone em 16:9 e 1080p" width="720px">
 
 This software is safe, Windows may indicate it as a threat, but check the check carried out on <a href="https://www.virustotal.com/gui/file/b1bc34e1c13034b8d51121d0a6f8fcb5ede2ef8379edb4aae0c5ef521a59fc44?nocache=1" target="_blank">VirusTotal</a>.
 
@@ -17,9 +17,9 @@ This software is safe, Windows may indicate it as a threat, but check the check 
 
 # **Boxes Text Editor**
 
-***Boxes Text Editor*** is an open-source text editor designed for texts copied from the ***HxD*** program. The main purpose of this tool is to simplify and speed up the workflow of translating/correcting text in PS2 game ".iso" files, for example.
+***Boxes Text Editor*** is an open-source text editor designed for text copied from any hexadecimal editor. The main goal of this tool is to simplify and speed up the workflow of translating/correcting game text.
 
-<img src="temp_img.png" alt=" " width="1080px">
+<img src="images/logo HD.png" alt=" " width="1080px">
 
 # **Main Features**:
 
@@ -77,40 +77,42 @@ There are 4 main windows:
 
 # Technical Features:
 
-* **Windows**: The windows are movable and resizable, with thin borders and characteristic colors. When transparency is enabled, they display a blurred background effect, creating a styled overlay appearance.
-* **Editing**: Editing is based on replacing characters rather than deleting them.
-  * The Backspace and Delete keys transform characters into empty ones (represented by a symbol inside the program, but displayed normally in HxD, similar to a period). Backspace replaces previous characters, while Delete replaces following characters.
-  * Pressing Enter does not change the number of characters inside the Blocks (since after attempting to replace one, line breaks are removed and the cursor returns to the beginning of the segment).
-  * Copy and paste functions work normally, only replacing characters according to the amount copied, while leaving the remaining characters unchanged.
-  * Ctrl+Z and Ctrl+Y (undo and redo) are also supported, with a limit of up to 150 undo/redo actions.
+* **Windows**: The windows are movable and resizable, featuring thin borders and distinctive colors. When transparency is enabled, they display a blurred background effect, creating a stylized overlay appearance.
+
+* **Editing**: Editing is based on character replacement rather than character removal.
+
+  * The Backspace and Delete keys replace characters with blanks (represented by a dot in hex editors). Backspace replaces preceding characters, while Delete replaces following characters.
+  * Pressing Enter does not change the number of characters within Blocks (since, after attempting to replace one, line breaks are removed and the cursor returns to the beginning of the segment).
+  * Copy and paste functions work normally, simply replacing characters according to the amount pasted, while any remaining characters stay unchanged.
+  * Ctrl+Z and Ctrl+Y (Undo and Redo) are also supported, with a limit of up to 150 undo/redo actions.
   * Regular spaces are counted as part of a segment.
   * Segments have fixed sizes, preventing overflow into unrelated segments.
-  * Only viewing the content of the Preview and Output windows is possible.
-  * All character counters are dynamic, allowing users to check whether the original character count has changed.
+  * Only the content displayed in the Preview and Output windows can be viewed.
+  * All character counters are dynamic, making it possible to verify whether the original character count has changed.
 
-* Aesthetics:
+* **Appearance**:
 
-  * The **Dark/Light Mode** button changes the colors of the windows and background between black and white, optimized for visibility and visual comfort.
- 
-<img src="temp_img.png" alt=" " width="1080px">
-
-  * **Customizable Colors**: This button allows changing window and background colors to any RGB, HLS, or HEX color. It is also possible to pick any color directly from the screen using the eyedropper tool.
+  * The **Dark/Light Mode** button switches the colors of the windows and background between black and white, optimized for visibility and visual comfort.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-  * **Window Transparency**: A slider allows adjusting the transparency of window backgrounds, providing additional customization.
+* **Custom Colors**: This button allows changing the colors of the windows and background to any RGB, HLS, or HEX color. It is also possible to select any color directly from the screen using the eyedropper tool.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Forbidden Characters**: Characters hidden during block editing are managed in this area, where users can type (or paste) and remove any characters they want hidden while editing the Blocks. This keeps editing cleaner and avoids accidentally replacing important characters.
-
-<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
-
-* The "**Reset Layout**" button restores all windows to their default size and position, undoing any modifications made by the user.
+* **Window Transparency**: A slider allows adjustment of the window background transparency, providing additional customization.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-**Warning**: I am not responsible for improper use of this tool (if such misuse is even possible). Its intended purpose is to assist with editing text copied from the "HxD" program, making translation and correction workflows for ".iso" games more accessible.
+* **Forbidden Characters**: Characters hidden during block editing are managed in this area, where users can type (or paste) and remove any characters they wish to hide while editing Blocks. This helps keep editing cleaner and reduces the risk of accidentally replacing important characters.
+
+<img src="temp_img.png" alt=" " width="1080px">
+
+* The **"Reset Layout"** button restores all windows to their default size and position, undoing any modifications made by the user.
+
+<img src="temp_img.png" alt=" " width="1080px">
+
+**Disclaimer**: I am not responsible for any improper use of this tool (if such use is even possible). Its purpose is to assist with editing text copied from hex editors, making the game translation and proofreading workflow more accessible.
 
 Make good use of this tool and feel free to leave your feedback in the comments, or preferably through my email for such purposes: [bennio23@proton.me](mailto:bennio23@proton.me), or in the discussion tab.
 
@@ -124,7 +126,7 @@ Thank you in advance :)
 
 # **Boxes Text Editor**
 
-***Boxes Text Editor*** é um editor de texto open-source desenvolvido para textos copiados do programa ***HxD***. O principal objetivo desta ferramenta é simplificar e acelerar o fluxo de trabalho de tradução/correção de textos em arquivos ".iso" de jogos de PS2, por exemplo.
+***Boxes Text Editor*** é um editor de texto de código aberto projetado para textos copiados  de algum editor hexadecimal. O principal objetivo desta ferramenta é simplificar e agilizar o fluxo de trabalho de tradução/correção de texto de jogos.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
@@ -187,7 +189,7 @@ Existem 4 janelas principais:
 
 * **Edição**: A edição é baseada na substituição de caracteres em vez da remoção deles.
 
-  * As teclas Backspace e Delete transformam caracteres em vazios (representados por um símbolo dentro do programa, mas exibidos normalmente no HxD, semelhante a um ponto). O Backspace substitui caracteres anteriores, enquanto o Delete substitui os seguintes.
+  * As teclas Backspace e Delete transformam caracteres em vazios (representados por um ponto nos editores hex). O Backspace substitui caracteres anteriores, enquanto o Delete substitui os seguintes.
   * Pressionar Enter não altera a quantidade de caracteres dentro dos Blocks (já que, após tentar substituir um, as quebras de linha são removidas e o cursor retorna ao início do segmento).
   * As funções de copiar e colar funcionam normalmente, apenas substituindo caracteres de acordo com a quantidade copiada, enquanto os caracteres restantes permanecem inalterados.
   * Ctrl+Z e Ctrl+Y (desfazer e refazer) também são suportados, com limite de até 150 ações de desfazer/refazer.
@@ -218,7 +220,7 @@ Existem 4 janelas principais:
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-**Aviso**: Não me responsabilizo pelo uso inadequado desta ferramenta (caso isso sequer seja possível). Seu propósito é auxiliar na edição de textos copiados do programa "HxD", tornando mais acessível o fluxo de tradução e correção de jogos ".iso".
+**Aviso**: Não me responsabilizo pelo uso inadequado desta ferramenta (caso isso sequer seja possível). Seu propósito é auxiliar na edição de textos copiados de editores hex, tornando mais acessível o fluxo de tradução e correção de jogos.
 
 Faça bom uso desta ferramenta e sinta-se à vontade para deixar seu feedback nos comentários, ou preferencialmente através do meu e-mail para esse tipo de finalidade: [bennio23@proton.me](mailto:bennio23@proton.me), ou na aba de discussões.
 
@@ -232,7 +234,7 @@ Agradeço desde já :)
 
 # **Boxes Text Editor**
 
-***Boxes Text Editor*** は、***HxD*** プログラムからコピーしたテキスト向けに開発されたオープンソースのテキストエディターです。主な目的は、PS2ゲームの「.iso」ファイル内テキストの翻訳・修正作業をより簡単かつ高速にすることです。
+***Boxes Text Editor***は、あらゆる16進数エディタからコピーしたテキストに対応するように設計されたオープンソースのテキストエディタです。このツールの主な目的は、ゲームテキストの翻訳／修正作業を簡素化し、高速化することです。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
@@ -289,44 +291,44 @@ Agradeço desde já :)
 
 <img src="images/ocultos.png" alt=" " width="500px">
 
-# 技術的機能:
+# 技術的な機能
 
-* **ウィンドウ**: ウィンドウは移動・リサイズ可能で、細い境界線と特徴的な色を備えています。透明度が有効な場合、背景ぼかし効果が適用され、スタイリッシュなオーバーレイ風デザインになります。
+* **ウィンドウ**: ウィンドウは移動およびサイズ変更が可能で、細い枠線と特徴的な色を備えています。透明化が有効な場合、背景にぼかし効果が適用され、スタイリッシュなオーバーレイ表示になります。
 
-* **編集**: 編集は文字削除ではなく、文字置換ベースで行われます。
+* **編集**: 編集は文字の削除ではなく、文字の置換を基準としています。
 
-  * Backspace と Delete キーは文字を空白文字へ変換します（プログラム内では記号として表示されますが、HxD 上では通常表示され、ピリオドに似ています）。Backspace は前の文字を、Delete は後ろの文字を置き換えます。
-  * Enter キーを押しても Blocks 内の文字数は変化しません（改行を試みた後、改行は削除され、カーソルはセグメント先頭へ戻ります）。
-  * コピー＆ペーストは通常通り動作し、貼り付けた文字数分だけ置換が行われ、残りの文字は維持されます。
-  * Ctrl+Z と Ctrl+Y（Undo / Redo）にも対応しており、最大150回までの操作履歴を保持します。
+  * BackspaceキーおよびDeleteキーは文字を空白に置き換えます（16進エディタではドットで表示されます）。Backspaceは前方の文字を、Deleteは後方の文字を置換します。
+  * Enterキーを押してもBlocks内の文字数は変化しません（文字の置換後に改行が削除され、カーソルがセグメントの先頭へ戻るためです）。
+  * コピー＆ペースト機能は通常どおり動作し、貼り付けた文字数に応じて文字を置換します。残りの文字は変更されません。
+  * Ctrl+ZおよびCtrl+Y（元に戻す／やり直し）にも対応しており、最大150回までの操作履歴を保持します。
   * 通常のスペースもセグメントの一部としてカウントされます。
-  * セグメントは固定サイズで、他の無関係なセグメントへのオーバーフローを防ぎます。
-  * Preview と Output ウィンドウは閲覧専用です。
-  * すべての文字数カウンターは動的で、元の文字数が変更されたか確認できます。
+  * セグメントのサイズは固定されているため、無関係なセグメントへのオーバーフローは発生しません。
+  * PreviewウィンドウおよびOutputウィンドウの内容のみ閲覧可能です。
+  * すべての文字数カウンターは動的に更新されるため、元の文字数が変更されたかどうかを確認できます。
 
-* デザイン:
+* **外観**
 
-  * **Dark/Light Mode** ボタンは、ウィンドウと背景色を黒・白で切り替え、視認性と快適性を向上させます。
-
-<img src="temp_img.png" alt=" " width="1080px">
-
-* **Customizable Colors**: ウィンドウや背景色を RGB、HLS、HEX の任意カラーへ変更できます。また、スポイトツールを使って画面上の色を直接取得することも可能です。
+  * **Dark/Light Mode** ボタンは、ウィンドウおよび背景の色を黒と白の間で切り替えます。視認性と快適な閲覧体験を重視して設計されています。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Window Transparency**: スライダーによってウィンドウ背景の透明度を調整でき、さらなるカスタマイズが可能です。
+* **カスタムカラー**: このボタンを使用すると、ウィンドウおよび背景の色を任意のRGB、HLS、またはHEXカラーに変更できます。また、スポイトツールを使用して画面上の任意の色を直接選択することも可能です。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Forbidden Characters**: ブロック編集時に隠される文字はこのエリアで管理されます。ユーザーは、Blocks 編集中に非表示にしたい文字を入力（または貼り付け）・削除できます。これにより編集画面を整理し、重要な文字を誤って置換するのを防げます。
+* **ウィンドウの透明度**: スライダーを使用してウィンドウ背景の透明度を調整でき、さらなるカスタマイズが可能です。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* "**Reset Layout**" ボタンは、すべてのウィンドウをデフォルトのサイズと位置に戻し、ユーザーが行った変更をリセットします。
+* **非表示文字**: Blocks編集中に非表示にする文字をこのエリアで管理できます。ユーザーは編集時に隠したい文字を入力（または貼り付け）したり、削除したりできます。これにより編集画面が見やすくなり、重要な文字を誤って置換するリスクを軽減できます。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-**注意**: 本ツールの不適切な使用について、私は責任を負いません（そもそも不適切な使用が可能かどうかは分かりませんが）。このツールの目的は、「HxD」プログラムからコピーしたテキスト編集を支援し、「.iso」ゲームの翻訳・修正作業をより手軽にすることです。
+* **「Reset Layout」** ボタンは、すべてのウィンドウを初期サイズおよび初期位置に戻し、ユーザーが行った変更をリセットします。
+
+<img src="temp_img.png" alt=" " width="1080px">
+
+**注意事項**: 本ツールの不適切な使用について、作者は一切の責任を負いません（そもそもそのような使用が可能かどうかは別として）。本ツールは16進エディタからコピーしたテキストの編集を支援し、ゲームの翻訳および校正作業をより効率的に行えるようにすることを目的としています。
 
 このツールをぜひ活用し、コメント欄、またはこのような目的のために用意している私のメールアドレス [bennio23@proton.me](mailto:bennio23@proton.me)、もしくはディスカッションタブからお気軽にフィードバックをお寄せください。
 
@@ -340,7 +342,7 @@ Agradeço desde já :)
 
 # **Boxes Text Editor**
 
-***Boxes Text Editor*** es un editor de texto de código abierto diseñado para textos copiados del programa ***HxD***. El objetivo principal de esta herramienta es simplificar y acelerar el flujo de trabajo de traducción/corrección de textos en archivos ".iso" de juegos de PS2, por ejemplo.
+***Boxes Text Editor*** es un editor de texto de código abierto diseñado para texto copiado desde cualquier editor hexadecimal. El objetivo principal de esta herramienta es simplificar y agilizar el proceso de traducción y corrección de textos de videojuegos.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
@@ -399,22 +401,22 @@ Existen 4 ventanas principales:
 
 # Características Técnicas:
 
-* **Ventanas**: Las ventanas son movibles y redimensionables, con bordes finos y colores característicos. Cuando la transparencia está habilitada, muestran un efecto de fondo desenfocado, creando una apariencia estilizada tipo overlay.
+* **Ventanas**: Las ventanas son móviles y redimensionables, con bordes finos y colores característicos. Cuando la transparencia está activada, muestran un efecto de fondo desenfocado, creando una apariencia de superposición estilizada.
 
-* **Edición**: La edición se basa en reemplazar caracteres en lugar de eliminarlos.
+* **Edición**: La edición se basa en la sustitución de caracteres en lugar de su eliminación.
 
-  * Las teclas Backspace y Delete transforman los caracteres en vacíos (representados por un símbolo dentro del programa, pero mostrados normalmente en HxD, similar a un punto). Backspace reemplaza caracteres anteriores, mientras que Delete reemplaza caracteres posteriores.
-  * Presionar Enter no cambia la cantidad de caracteres dentro de los Blocks (ya que, después de intentar reemplazar uno, los saltos de línea se eliminan y el cursor vuelve al inicio del segmento).
-  * Las funciones de copiar y pegar funcionan normalmente, reemplazando caracteres de acuerdo con la cantidad copiada, mientras que los caracteres restantes permanecen sin cambios.
-  * Ctrl+Z y Ctrl+Y (deshacer y rehacer) también son compatibles, con un límite de hasta 150 acciones.
+  * Las teclas Backspace y Delete reemplazan los caracteres por espacios vacíos (representados por un punto en los editores hexadecimales). Backspace sustituye los caracteres anteriores, mientras que Delete sustituye los siguientes.
+  * Presionar Enter no modifica la cantidad de caracteres dentro de los Blocks (ya que, después de intentar reemplazar uno, los saltos de línea se eliminan y el cursor vuelve al inicio del segmento).
+  * Las funciones de copiar y pegar funcionan normalmente, reemplazando caracteres según la cantidad pegada, mientras que los caracteres restantes permanecen sin cambios.
+  * También se admiten Ctrl+Z y Ctrl+Y (deshacer y rehacer), con un límite de hasta 150 acciones de deshacer/rehacer.
   * Los espacios normales se cuentan como parte de un segmento.
-  * Los segmentos tienen tamaños fijos, evitando desbordamientos hacia segmentos no relacionados.
+  * Los segmentos tienen tamaños fijos, lo que impide el desbordamiento hacia segmentos no relacionados.
   * Solo es posible visualizar el contenido de las ventanas Preview y Output.
-  * Todos los contadores de caracteres son dinámicos, permitiendo verificar si la cantidad original de caracteres fue modificada.
+  * Todos los contadores de caracteres son dinámicos, lo que permite verificar si la cantidad original de caracteres ha sido modificada.
 
-* Estética:
+* **Apariencia**:
 
-  * El botón **Dark/Light Mode** cambia los colores de las ventanas y el fondo entre negro y blanco, optimizado para visibilidad y comodidad visual.
+  * El botón **Dark/Light Mode** cambia los colores de las ventanas y del fondo entre negro y blanco, optimizado para la visibilidad y la comodidad visual.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
@@ -422,19 +424,19 @@ Existen 4 ventanas principales:
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Transparencia de las Ventanas**: Un control deslizante permite ajustar la transparencia del fondo de las ventanas, proporcionando personalización adicional.
+* **Transparencia de las Ventanas**: Un control deslizante permite ajustar la transparencia del fondo de las ventanas, ofreciendo una personalización adicional.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Caracteres Prohibidos**: Los caracteres ocultos durante la edición de bloques se administran en esta área, donde los usuarios pueden escribir (o pegar) y eliminar cualquier carácter que deseen ocultar mientras editan los Blocks. Esto mantiene la edición más limpia y evita reemplazar accidentalmente caracteres importantes.
+* **Caracteres Ocultos**: Los caracteres ocultados durante la edición de los bloques se gestionan en esta área, donde los usuarios pueden escribir (o pegar) y eliminar cualquier carácter que deseen ocultar mientras editan los Blocks. Esto mantiene la edición más limpia y ayuda a evitar la sustitución accidental de caracteres importantes.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* El botón "**Reset Layout**" restaura todas las ventanas a su tamaño y posición predeterminados, deshaciendo cualquier modificación realizada por el usuario.
+* El botón **"Reset Layout"** restaura todas las ventanas a su tamaño y posición predeterminados, deshaciendo cualquier modificación realizada por el usuario.
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-**Aviso**: No me responsabilizo por el uso indebido de esta herramienta (si es que tal uso indebido es posible). Su propósito es ayudar con la edición de textos copiados del programa "HxD", haciendo más accesible el flujo de traducción y corrección de juegos ".iso".
+**Aviso**: No me responsabilizo por el uso indebido de esta herramienta (si es que tal uso fuera posible). Su propósito es ayudar en la edición de textos copiados desde editores hexadecimales, haciendo más accesible el flujo de trabajo de traducción y corrección de videojuegos.
 
 Haz buen uso de esta herramienta y no dudes en dejar tus comentarios, o preferiblemente enviarlos a través de mi correo electrónico para este tipo de asuntos: [bennio23@proton.me](mailto:bennio23@proton.me), o en la pestaña de discusiones.
 
@@ -448,7 +450,7 @@ Gracias de antemano :)
 
 # **Boxes Text Editor**
 
-***Boxes Text Editor*** 是一个开源文本编辑器，专门用于处理从 ***HxD*** 程序复制的文本。该工具的主要目的是简化并加快 PS2 游戏 “.iso” 文件中的文本翻译/修正工作流程。
+***Boxes Text Editor*** 是一款开源文本编辑器，专为从任何十六进制编辑器复制的文本而设计。该工具的主要目标是简化和加快游戏文本的翻译/校对工作流程。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
@@ -505,44 +507,44 @@ Gracias de antemano :)
 
 <img src="images/ocultos.png" alt=" " width="500px">
 
-# 技术功能：
+# 技术特性：
 
-* **窗口**：窗口支持移动与调整大小，具有细边框和特色颜色。启用透明效果时，会显示模糊背景效果，形成具有风格化的覆盖层外观。
+* **窗口**：窗口支持移动和调整大小，具有细边框和独特的配色。当启用透明效果时，窗口会显示模糊背景效果，从而呈现出风格化的叠加界面外观。
 
-* **编辑**：编辑基于字符替换，而不是字符删除。
+* **编辑**：编辑方式基于字符替换，而非字符删除。
 
-  * Backspace 和 Delete 键会将字符转换为空字符（在程序中以符号表示，但在 HxD 中会正常显示，类似于句点）。Backspace 替换前一个字符，而 Delete 替换后一个字符。
-  * 按下 Enter 不会改变 Blocks 内的字符数量（因为尝试替换后，换行会被移除，光标会返回段落开头）。
-  * 复制与粘贴功能正常工作，只会根据复制的字符数量进行替换，其余字符保持不变。
-  * 支持 Ctrl+Z 和 Ctrl+Y（撤销/重做），最多支持 150 次撤销/重做操作。
-  * 普通空格也会被计入段落的一部分。
-  * 段落大小固定，防止溢出到无关段落。
-  * Preview 和 Output 窗口仅支持查看内容。
-  * 所有字符计数器都是动态的，可用于检查原始字符数量是否发生变化。
+  * Backspace 和 Delete 键会将字符替换为空白（在十六进制编辑器中显示为一个点）。Backspace 替换前方字符，而 Delete 替换后方字符。
+  * 按下 Enter 键不会改变 Blocks 中的字符数量（因为在尝试替换字符后，换行符会被移除，光标会返回到该段的开头）。
+  * 复制和粘贴功能可正常使用，仅根据粘贴内容的长度替换相应数量的字符，其余字符保持不变。
+  * 支持 Ctrl+Z 和 Ctrl+Y（撤销与重做），最多可记录 150 次撤销/重做操作。
+  * 普通空格也会被计入段落长度。
+  * 各段长度固定，防止内容溢出到无关段落中。
+  * 只能查看 Preview 和 Output 窗口中的内容。
+  * 所有字符计数器均为动态更新，可用于检查原始字符数量是否发生变化。
 
-* 美观设计：
+* **界面外观：**
 
-  * **Dark/Light Mode** 按钮可在黑白主题之间切换窗口和背景颜色，以优化可见性和视觉舒适度。
-
-<img src="temp_img.png" alt=" " width="1080px">
-
-* **Customizable Colors**：此按钮允许将窗口和背景颜色更改为任意 RGB、HLS 或 HEX 颜色。同时还可以使用吸管工具直接从屏幕中选取颜色。
+  * **Dark/Light Mode（深色/浅色模式）** 按钮可在黑色和白色主题之间切换窗口及背景颜色，并针对可读性和视觉舒适度进行了优化。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Window Transparency**：可通过滑块调整窗口背景透明度，提供额外的个性化设置。
+* **自定义颜色**：此按钮允许将窗口和背景颜色设置为任意 RGB、HLS 或 HEX 颜色。同时还可以使用取色器工具直接从屏幕上选取颜色。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* **Forbidden Characters**：在区块编辑期间被隐藏的字符会在此区域中管理，用户可以输入（或粘贴）并移除任何希望在编辑 Blocks 时隐藏的字符。这可以让编辑界面更加整洁，并避免误替换重要字符。
+* **窗口透明度**：通过滑块可以调整窗口背景的透明度，提供额外的个性化设置选项。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-* “**Reset Layout**” 按钮会将所有窗口恢复到默认大小和位置，并撤销用户所做的修改。
+* **隐藏字符**：在编辑 Blocks 时需要隐藏的字符可在此区域进行管理。用户可以输入（或粘贴）以及移除任何希望在编辑过程中隐藏的字符。这样能够让编辑界面更加整洁，并减少意外替换重要字符的风险。
 
 <img src="temp_img.png" alt=" " width="1080px">
 
-**警告**：对于此工具的不当使用（如果真的存在这种可能），本人概不负责。该工具的目的是帮助编辑从 “HxD” 程序复制的文本，使 “.iso” 游戏的翻译与修正流程更加方便。
+* **“Reset Layout”** 按钮可将所有窗口恢复到默认大小和位置，撤销用户所做的任何布局修改。
+
+<img src="temp_img.png" alt=" " width="1080px">
+
+**免责声明**：对于本工具的任何不当使用（如果这种情况确实存在），本人概不负责。本工具旨在辅助编辑从十六进制编辑器复制的文本，使游戏翻译与校对流程更加便捷高效。
 
 请充分利用这个工具，并随时在评论区留下您的反馈，或者更推荐通过我的电子邮箱 [bennio23@proton.me](mailto:bennio23@proton.me)（用于此类用途），也可以在讨论区中提出您的意见。
 
