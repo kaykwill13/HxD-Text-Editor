@@ -1,4 +1,4 @@
-<img src="images/icon full 16_9.png" alt="Ícone em 16:9 e 1080p" width="1080px">
+<img src="temp_img.png" alt="Ícone em 16:9 e 1080p" width="1080px">
 
 This software is safe, Windows may indicate it as a threat, but check the check carried out on <a href="https://www.virustotal.com/gui/file/b1bc34e1c13034b8d51121d0a6f8fcb5ede2ef8379edb4aae0c5ef521a59fc44?nocache=1" target="_blank">VirusTotal</a>.
 
@@ -19,7 +19,7 @@ This software is safe, Windows may indicate it as a threat, but check the check 
 
 ***Boxes Text Editor*** is an open-source text editor designed for texts copied from the ***HxD*** program. The main purpose of this tool is to simplify and speed up the workflow of translating/correcting text in PS2 game ".iso" files, for example.
 
-<img src="images/exemple.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 # **Main Features**:
 
@@ -92,15 +92,15 @@ There are 4 main windows:
 
   * The **Dark/Light Mode** button changes the colors of the windows and background between black and white, optimized for visibility and visual comfort.
  
-<img src="images/darklightmode.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
   * **Customizable Colors**: This button allows changing window and background colors to any RGB, HLS, or HEX color. It is also possible to pick any color directly from the screen using the eyedropper tool.
 
-<img src="images/customcolor.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
   * **Window Transparency**: A slider allows adjusting the transparency of window backgrounds, providing additional customization.
 
-<img src="images/transparence.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Forbidden Characters**: Characters hidden during block editing are managed in this area, where users can type (or paste) and remove any characters they want hidden while editing the Blocks. This keeps editing cleaner and avoids accidentally replacing important characters.
 
@@ -108,7 +108,7 @@ There are 4 main windows:
 
 * The "**Reset Layout**" button restores all windows to their default size and position, undoing any modifications made by the user.
 
-<img src="images/reset.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 **Warning**: I am not responsible for improper use of this tool (if such misuse is even possible). Its intended purpose is to assist with editing text copied from the "HxD" program, making translation and correction workflows for ".iso" games more accessible.
 
@@ -126,7 +126,7 @@ Thank you in advance :)
 
 ***Boxes Text Editor*** é um editor de texto open-source desenvolvido para textos copiados do programa ***HxD***. O principal objetivo desta ferramenta é simplificar e acelerar o fluxo de trabalho de tradução/correção de textos em arquivos ".iso" de jogos de PS2, por exemplo.
 
-<img src="images/exemple.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 # **Principais Recursos**:
 
@@ -200,23 +200,23 @@ Existem 4 janelas principais:
 
   * O botão **Dark/Light Mode** altera as cores das janelas e do fundo entre preto e branco, otimizado para visibilidade e conforto visual.
 
-<img src="images/darklightmode.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Cores Personalizáveis**: Este botão permite alterar as cores das janelas e do fundo para qualquer cor RGB, HLS ou HEX. Também é possível selecionar qualquer cor diretamente da tela usando a ferramenta conta-gotas.
 
-<img src="images/customcolor.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Transparência das Janelas**: Um slider permite ajustar a transparência do fundo das janelas, oferecendo personalização adicional.
 
-<img src="images/transparence.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Caracteres Proibidos**: Os caracteres ocultados durante a edição dos blocos são gerenciados nesta área, onde os usuários podem digitar (ou colar) e remover quaisquer caracteres que desejarem ocultar durante a edição dos Blocks. Isso mantém a edição mais limpa e evita substituir caracteres importantes acidentalmente.
 
-<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * O botão "**Reset Layout**" restaura todas as janelas para o tamanho e posição padrão, desfazendo quaisquer modificações feitas pelo usuário.
 
-<img src="images/reset.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 **Aviso**: Não me responsabilizo pelo uso inadequado desta ferramenta (caso isso sequer seja possível). Seu propósito é auxiliar na edição de textos copiados do programa "HxD", tornando mais acessível o fluxo de tradução e correção de jogos ".iso".
 
@@ -234,7 +234,7 @@ Agradeço desde já :)
 
 ***Boxes Text Editor*** は、***HxD*** プログラムからコピーしたテキスト向けに開発されたオープンソースのテキストエディターです。主な目的は、PS2ゲームの「.iso」ファイル内テキストの翻訳・修正作業をより簡単かつ高速にすることです。
 
-<img src="images/exemple.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 # **主な機能**:
 
@@ -308,23 +308,23 @@ Agradeço desde já :)
 
   * **Dark/Light Mode** ボタンは、ウィンドウと背景色を黒・白で切り替え、視認性と快適性を向上させます。
 
-<img src="images/darklightmode.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Customizable Colors**: ウィンドウや背景色を RGB、HLS、HEX の任意カラーへ変更できます。また、スポイトツールを使って画面上の色を直接取得することも可能です。
 
-<img src="images/customcolor.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Window Transparency**: スライダーによってウィンドウ背景の透明度を調整でき、さらなるカスタマイズが可能です。
 
-<img src="images/transparence.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Forbidden Characters**: ブロック編集時に隠される文字はこのエリアで管理されます。ユーザーは、Blocks 編集中に非表示にしたい文字を入力（または貼り付け）・削除できます。これにより編集画面を整理し、重要な文字を誤って置換するのを防げます。
 
-<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * "**Reset Layout**" ボタンは、すべてのウィンドウをデフォルトのサイズと位置に戻し、ユーザーが行った変更をリセットします。
 
-<img src="images/reset.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 **注意**: 本ツールの不適切な使用について、私は責任を負いません（そもそも不適切な使用が可能かどうかは分かりませんが）。このツールの目的は、「HxD」プログラムからコピーしたテキスト編集を支援し、「.iso」ゲームの翻訳・修正作業をより手軽にすることです。
 
@@ -342,7 +342,7 @@ Agradeço desde já :)
 
 ***Boxes Text Editor*** es un editor de texto de código abierto diseñado para textos copiados del programa ***HxD***. El objetivo principal de esta herramienta es simplificar y acelerar el flujo de trabajo de traducción/corrección de textos en archivos ".iso" de juegos de PS2, por ejemplo.
 
-<img src="images/exemple.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 # **Características Principales**:
 
@@ -416,23 +416,23 @@ Existen 4 ventanas principales:
 
   * El botón **Dark/Light Mode** cambia los colores de las ventanas y el fondo entre negro y blanco, optimizado para visibilidad y comodidad visual.
 
-<img src="images/darklightmode.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Colores Personalizables**: Este botón permite cambiar los colores de las ventanas y del fondo a cualquier color RGB, HLS o HEX. También es posible seleccionar cualquier color directamente desde la pantalla utilizando la herramienta cuentagotas.
 
-<img src="images/customcolor.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Transparencia de las Ventanas**: Un control deslizante permite ajustar la transparencia del fondo de las ventanas, proporcionando personalización adicional.
 
-<img src="images/transparence.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Caracteres Prohibidos**: Los caracteres ocultos durante la edición de bloques se administran en esta área, donde los usuarios pueden escribir (o pegar) y eliminar cualquier carácter que deseen ocultar mientras editan los Blocks. Esto mantiene la edición más limpia y evita reemplazar accidentalmente caracteres importantes.
 
-<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * El botón "**Reset Layout**" restaura todas las ventanas a su tamaño y posición predeterminados, deshaciendo cualquier modificación realizada por el usuario.
 
-<img src="images/reset.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 **Aviso**: No me responsabilizo por el uso indebido de esta herramienta (si es que tal uso indebido es posible). Su propósito es ayudar con la edición de textos copiados del programa "HxD", haciendo más accesible el flujo de traducción y corrección de juegos ".iso".
 
@@ -450,7 +450,7 @@ Gracias de antemano :)
 
 ***Boxes Text Editor*** 是一个开源文本编辑器，专门用于处理从 ***HxD*** 程序复制的文本。该工具的主要目的是简化并加快 PS2 游戏 “.iso” 文件中的文本翻译/修正工作流程。
 
-<img src="images/exemple.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 # **主要功能**：
 
@@ -524,23 +524,23 @@ Gracias de antemano :)
 
   * **Dark/Light Mode** 按钮可在黑白主题之间切换窗口和背景颜色，以优化可见性和视觉舒适度。
 
-<img src="images/darklightmode.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Customizable Colors**：此按钮允许将窗口和背景颜色更改为任意 RGB、HLS 或 HEX 颜色。同时还可以使用吸管工具直接从屏幕中选取颜色。
 
-<img src="images/customcolor.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Window Transparency**：可通过滑块调整窗口背景透明度，提供额外的个性化设置。
 
-<img src="images/transparence.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * **Forbidden Characters**：在区块编辑期间被隐藏的字符会在此区域中管理，用户可以输入（或粘贴）并移除任何希望在编辑 Blocks 时隐藏的字符。这可以让编辑界面更加整洁，并避免误替换重要字符。
 
-<img src="images/hiddenCharacters.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 * “**Reset Layout**” 按钮会将所有窗口恢复到默认大小和位置，并撤销用户所做的修改。
 
-<img src="images/reset.gif" alt=" " width="1080px">
+<img src="temp_img.png" alt=" " width="1080px">
 
 **警告**：对于此工具的不当使用（如果真的存在这种可能），本人概不负责。该工具的目的是帮助编辑从 “HxD” 程序复制的文本，使 “.iso” 游戏的翻译与修正流程更加方便。
 
